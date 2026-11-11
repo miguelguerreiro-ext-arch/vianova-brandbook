@@ -1,0 +1,40 @@
+# Secrets — never commit. A Figma PAT was once found in a settings.local.json
+# in the product repo; do not repeat it here.
+.env
+.env.*
+!.env.example
+.figma_token
+.claude/settings.local.json
+*.pem
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output — everything downstream of capture/ is generated
+.next/
+out/
+dist/
+*.tsbuildinfo
+
+# Generated artefacts
+public/previews/
+public/tokens.json
+app/styles/paper.css
+specimens/
+
+# Test artifacts
+test-results/
+playwright-report/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Poppins font files are copied in by design-system/build.py and are not redistributed here
+design-system/project/fonts/*.ttf
+__pycache__/
+*.pyc

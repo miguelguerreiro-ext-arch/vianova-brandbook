@@ -1,0 +1,830 @@
+{
+  "$comment": "READ-ONLY extract from the Figma library at fileKey rBgYzyWoDFPc76K0mpuDaP. Captured via the Figma MCP; nothing was written back. Re-capture when the design file changes. DO NOT hand-edit.",
+  "$annotations": "type, scopes, value, aliasOf, hidden and description are read from Figma verbatim. unit, ladder, stop and use are editorial annotations added at capture time — Figma has no field for them — and are what lets the contrast test tell a surface from a text role.",
+  "source": {
+    "fileKey": "rBgYzyWoDFPc76K0mpuDaP",
+    "fileName": "UNVERIFIED",
+    "$fileNameNote": "The Figma Plugin API reports every file as \"Document\", so the name cannot be captured. The previous capture recorded \"Vianova DS — Artefacts\"; the file is being renamed to \"Vianova Brandbook\". fileKey is the identity that matters and is verified.",
+    "capturedAt": "2026-10-13",
+    "pages": [
+      "Brandbook",
+      "Components",
+      "-------- ↓ TEMPLATES BELOW ↓ --------",
+      "★ VN-Minimal",
+      "★ VN-Pager",
+      "Archive"
+    ]
+  },
+  "collections": {
+    "Artefact / Primitive": {
+      "mode": "Print",
+      "hidden": true,
+      "entries": {
+        "neutral/white": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#ffffff",
+          "description": "Exact value #ffffff. Tailwind primitive, verbatim from the Vianova DS ground truth."
+        },
+        "amber/700": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#b45309",
+          "description": "Exact value #b45309. Tailwind primitive, verbatim from the Vianova DS ground truth."
+        },
+        "brand-gradient/1": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#fc0061",
+          "description": "Exact value #FC0061. Tailwind primitive, verbatim from the Vianova DS ground truth."
+        },
+        "brand-gradient/2": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#ba00c7",
+          "description": "Exact value #BA00C7. Tailwind primitive, verbatim from the Vianova DS ground truth."
+        },
+        "brand-gradient/3": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#6000f3",
+          "description": "Exact value #6000F3. Tailwind primitive, verbatim from the Vianova DS ground truth."
+        },
+        "brand-gradient/4": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#004bd9",
+          "description": "Exact value #004BD9. Tailwind primitive, verbatim from the Vianova DS ground truth."
+        },
+        "brand-gradient/5": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#00dc96",
+          "description": "Exact value #00DC96. Tailwind primitive, verbatim from the Vianova DS ground truth."
+        },
+        "teal-artefact/700": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#1b787a",
+          "description": "#1b787a · OKLCH hue 197.5, seeded from #1c9699 at step 600. Contrast on white 5.23:1 — AA for body text."
+        },
+        "navy/900": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#112e57",
+          "description": "#112e57 — the declared primary of vianova.io (--neutrals--primary-1). Adopted as the artefact primary on 2026-10-08; replaces blue/950 #172554 for data/baseline, which sat too close to it."
+        },
+        "gray/50": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#f9fafb",
+          "description": "#f9fafb · Tailwind gray-50 — exact. surface/raised and the proposed pill ground. Adopted 2026-10-08, replacing the zinc step at the same level — vianova.io uses gray, and the artefact neutrals now match it."
+        },
+        "gray/200": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#e5e7eb",
+          "description": "#e5e7eb · Tailwind gray-200 — exact. border/default. Adopted 2026-10-08, replacing the zinc step at the same level — vianova.io uses gray, and the artefact neutrals now match it."
+        },
+        "gray/500": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#6b7280",
+          "description": "#6b7280 · Tailwind gray-500 — exact. text/muted. 4.8:1 on white. Adopted 2026-10-08, replacing the zinc step at the same level — vianova.io uses gray, and the artefact neutrals now match it."
+        },
+        "gray/600": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#4b5563",
+          "description": "#4b5563 · Tailwind gray-600 — exact. text/secondary and the proposed pill label. 7.6:1 on white. Adopted 2026-10-08, replacing the zinc step at the same level — vianova.io uses gray, and the artefact neutrals now match it."
+        },
+        "gray/900": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#111827",
+          "description": "#111827 · Tailwind gray-900 — exact. text/heading and text/body. 17.7:1 on white. Adopted 2026-10-08, replacing the zinc step at the same level — vianova.io uses gray, and the artefact neutrals now match it."
+        },
+        "navy/tint": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#eef7ff",
+          "description": "#eef7ff · Ground for navy type. Derived at the navy hue (257.6) so the pair matches; the old #eff6ff sat 3 degrees off. One tint per hue — there is no ramp, so the step is named, not numbered."
+        },
+        "teal-artefact/tint": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#e7fafa",
+          "description": "#e7fafa · Ground for teal type. Derived at the teal hue (197.2). One tint per hue — there is no ramp, so the step is named, not numbered."
+        },
+        "amber/tint": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#fff2ea",
+          "description": "#fff2ea · Ground for amber type. Derived at the amber hue (49.0) — the old #fffbeb was 46 degrees off, a yellow under an orange. One tint per hue — there is no ramp, so the step is named, not numbered."
+        },
+        "magenta/tint": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#fff1f2",
+          "description": "#fff1f2 · Ground for the tertiary hue. Derived at hue 11.6 and the shared tint lightness. Note the tertiary solid is NOT legible on it (3.6:1) — ink sits on this tint, not magenta."
+        },
+        "gradient-hot/end": {
+          "type": "COLOR",
+          "scopes": [],
+          "value": "#1804e4",
+          "description": "#1804e4 · The second and only original stop of gradient/hot — the gradient starts on the tertiary #fc0061 (brand-gradient/1). Documentation only: never bound, never used as a flat colour."
+        }
+      }
+    },
+    "Artefact / Colour": {
+      "mode": "Print",
+      "hidden": false,
+      "entries": {
+        "accent/default": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "navy/900"
+          },
+          "value": "#112e57",
+          "description": "PRIMARY. Numbering, rules, the badge, headline accents. 13.5:1 on paper."
+        },
+        "text/heading": {
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "gray/900"
+          },
+          "value": "#111827",
+          "description": "Headings and section titles. Brandbook: ink."
+        },
+        "text/secondary": {
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "gray/600"
+          },
+          "value": "#4b5563",
+          "description": "Supporting copy and table bodies. Brandbook: slate."
+        },
+        "text/muted": {
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "gray/500"
+          },
+          "value": "#6b7280",
+          "description": "Captions, folios, eyebrows. Brandbook: mute."
+        },
+        "text/body": {
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "gray/900"
+          },
+          "value": "#111827",
+          "description": "Running body. Brandbook: ink — heading and body share it."
+        },
+        "border/default": {
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "gray/200"
+          },
+          "value": "#e5e7eb",
+          "description": "Hairlines and card strokes. Brandbook: line."
+        },
+        "surface/page": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "neutral/white"
+          },
+          "value": "#ffffff",
+          "description": "The page itself. Brandbook: paper — the only pure white in the system."
+        },
+        "accent/tint": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "navy/tint"
+          },
+          "value": "#eef7ff",
+          "description": "PRIMARY tint. Ground for navy type, 12.4:1."
+        },
+        "surface/raised": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "gray/50"
+          },
+          "value": "#f9fafb",
+          "description": "Cards, table headers, callouts. Brandbook: wash."
+        },
+        "text/on-accent": {
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "neutral/white"
+          },
+          "value": "#ffffff",
+          "description": "Type on an accent ground. Brandbook: paper. 13.5:1 on the navy primary."
+        },
+        "secondary/default": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "teal-artefact/700"
+          },
+          "value": "#1b787a",
+          "description": "SECONDARY. Highlights, callouts, and what already exists. 5.2:1 on paper."
+        },
+        "secondary/tint": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "teal-artefact/tint"
+          },
+          "value": "#e7fafa",
+          "description": "SECONDARY tint. Ground for teal type, 4.8:1."
+        },
+        "tertiary/default": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "use": "display",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "brand-gradient/1"
+          },
+          "value": "#fc0061",
+          "description": "TERTIARY. Display only — 3.9:1 on paper. Never body, caption or pill. Shares the brand gradient’s first stop."
+        },
+        "tertiary/tint": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "magenta/tint"
+          },
+          "value": "#fff1f2",
+          "description": "TERTIARY tint. Ink sits on this, not magenta."
+        },
+        "caveat/default": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "amber/700"
+          },
+          "value": "#b45309",
+          "description": "CAVEAT. Client-specific, configured, or carrying a qualification. 5.0:1 on paper."
+        },
+        "caveat/tint": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "amber/tint"
+          },
+          "value": "#fff2ea",
+          "description": "CAVEAT tint. Ground for amber type, 4.6:1."
+        }
+      }
+    },
+    "Artefact / Brand gradient": {
+      "mode": "Print",
+      "hidden": false,
+      "entries": {
+        "1": {
+          "type": "COLOR",
+          "scopes": [],
+          "stop": 0,
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "brand-gradient/1"
+          },
+          "value": "#fc0061",
+          "description": "Spine only, 0%. Figma cannot bind gradient stops to variables — these document the exact values."
+        },
+        "2": {
+          "type": "COLOR",
+          "scopes": [],
+          "stop": 24,
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "brand-gradient/2"
+          },
+          "value": "#ba00c7",
+          "description": "Spine only, 24%."
+        },
+        "3": {
+          "type": "COLOR",
+          "scopes": [],
+          "stop": 48,
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "brand-gradient/3"
+          },
+          "value": "#6000f3",
+          "description": "Spine only, 48%."
+        },
+        "4": {
+          "type": "COLOR",
+          "scopes": [],
+          "stop": 72,
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "brand-gradient/4"
+          },
+          "value": "#004bd9",
+          "description": "Spine only, 72%."
+        },
+        "5": {
+          "type": "COLOR",
+          "scopes": [],
+          "stop": 100,
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "brand-gradient/5"
+          },
+          "value": "#00dc96",
+          "description": "Spine only, 100%. Never page chrome, never a data colour."
+        }
+      }
+    },
+    "Artefact / Geometry": {
+      "mode": "Print",
+      "hidden": false,
+      "entries": {
+        "page-width": {
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "unit": "pt",
+          "value": 595.276,
+          "description": "A4 width in points."
+        },
+        "page-height": {
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "unit": "pt",
+          "value": 841.89,
+          "description": "A4 height in points."
+        },
+        "safe-edge": {
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "unit": "pt",
+          "value": 14,
+          "description": "HARD RULE: no element may sit within this distance of any page edge."
+        },
+        "margin": {
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "unit": "pt",
+          "value": 36,
+          "description": "Top, right and bottom page margin."
+        },
+        "content-width": {
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "unit": "pt",
+          "value": 513.276,
+          "description": "The measure on short artefacts and brandbook sheets. Set at x = margin; 46pt remains on the right."
+        },
+        "column-width": {
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "unit": "pt",
+          "value": 246.638,
+          "description": "Two columns within content-width."
+        },
+        "column-gap": {
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "unit": "pt",
+          "value": 20,
+          "description": "Gap between the two body columns."
+        },
+        "header-height": {
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "unit": "pt",
+          "value": 24,
+          "description": "Running header row."
+        },
+        "card-bar": {
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "unit": "pt",
+          "value": 3,
+          "description": "Semantic top bar on a data card."
+        },
+        "hairline": {
+          "type": "FLOAT",
+          "scopes": [
+            "STROKE_FLOAT"
+          ],
+          "unit": "pt",
+          "value": 0.75,
+          "description": "Rules, card borders, dividers."
+        },
+        "margin-doc": {
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "unit": "pt",
+          "value": 54,
+          "description": "Long-document page margin. Wider than the one-pager margin because a 20-page read needs a calmer measure."
+        },
+        "content-doc": {
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "unit": "pt",
+          "value": 487.276,
+          "description": "page-width minus 2 x margin-doc."
+        },
+        "baseline": {
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "unit": "pt",
+          "value": 15,
+          "description": "Vertical rhythm unit for long documents."
+        },
+        "badge": {
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "unit": "pt",
+          "value": 24,
+          "description": "Section-number badge, square."
+        },
+        "topbar": {
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "unit": "pt",
+          "value": 3,
+          "description": "Full-bleed brand gradient bar at the page top."
+        },
+        "accent-rule": {
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "unit": "pt",
+          "value": 60,
+          "description": "Short gradient rule under a section title."
+        }
+      }
+    },
+    "Artefact / Type": {
+      "mode": "Print",
+      "hidden": false,
+      "entries": {
+        "text-eyebrow": {
+          "type": "FLOAT",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "unit": "pt",
+          "ladder": "text",
+          "value": 6.5,
+          "description": "Text ladder. Eyebrow, section label, card label."
+        },
+        "text-caption": {
+          "type": "FLOAT",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "unit": "pt",
+          "ladder": "text",
+          "value": 7.5,
+          "description": "Text ladder. Caption, folio."
+        },
+        "text-body": {
+          "type": "FLOAT",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "unit": "pt",
+          "ladder": "text",
+          "value": 9,
+          "description": "Text ladder base."
+        },
+        "text-lede": {
+          "type": "FLOAT",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "unit": "pt",
+          "ladder": "text",
+          "value": 11,
+          "description": "Text ladder. Standfirst, callout."
+        },
+        "text-subhead": {
+          "type": "FLOAT",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "unit": "pt",
+          "ladder": "text",
+          "value": 13,
+          "description": "Text ladder. Subsection heading."
+        },
+        "display-value": {
+          "type": "FLOAT",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "unit": "pt",
+          "ladder": "display",
+          "value": 25.5,
+          "description": "Display ladder. Data card value."
+        },
+        "display-title": {
+          "type": "FLOAT",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "unit": "pt",
+          "ladder": "display",
+          "value": 36,
+          "description": "Display ladder. Document title."
+        },
+        "display-xl": {
+          "type": "FLOAT",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "unit": "pt",
+          "ladder": "display",
+          "value": 51,
+          "description": "Display ladder. Reserved."
+        },
+        "display-hero": {
+          "type": "FLOAT",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "unit": "pt",
+          "ladder": "display",
+          "value": 72,
+          "description": "Display ladder. Hero numeral — one per page at most."
+        }
+      }
+    },
+    "Artefact / Font": {
+      "mode": "Print",
+      "hidden": false,
+      "entries": {
+        "family-print": {
+          "type": "STRING",
+          "scopes": [
+            "FONT_FAMILY"
+          ],
+          "value": "Poppins",
+          "description": "Print typeface. Inter stays for product, web and decks — a deliberate split, not drift."
+        },
+        "weight-light": {
+          "type": "STRING",
+          "scopes": [
+            "FONT_STYLE"
+          ],
+          "value": "Light",
+          "description": "Verified against figma.listAvailableFontsAsync()."
+        },
+        "weight-regular": {
+          "type": "STRING",
+          "scopes": [
+            "FONT_STYLE"
+          ],
+          "value": "Regular",
+          "description": "Body."
+        },
+        "weight-semibold": {
+          "type": "STRING",
+          "scopes": [
+            "FONT_STYLE"
+          ],
+          "value": "SemiBold",
+          "description": "Poppins uses &quot;SemiBold&quot; with NO space (Inter uses &quot;Semi Bold&quot;). Verified, not guessed. Never set this name programmatically in Google Docs/Slides — it exports as Times there."
+        },
+        "weight-bold": {
+          "type": "STRING",
+          "scopes": [
+            "FONT_STYLE"
+          ],
+          "value": "Bold",
+          "description": "Display titles and hero numerals."
+        }
+      }
+    },
+    "Artefact / Status": {
+      "mode": "Print",
+      "hidden": false,
+      "entries": {
+        "existing/surface": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "teal-artefact/tint"
+          },
+          "value": "#e7fafa",
+          "description": "Pill ground — exists today. The secondary tint."
+        },
+        "existing/text": {
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "teal-artefact/700"
+          },
+          "value": "#1b787a",
+          "description": "Pill label — exists today. The secondary itself, 4.8:1 on its tint."
+        },
+        "included/surface": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "navy/tint"
+          },
+          "value": "#eef7ff",
+          "description": "Pill ground — in the configured scope. The primary tint."
+        },
+        "included/text": {
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "navy/900"
+          },
+          "value": "#112e57",
+          "description": "Pill label — in the configured scope. The primary itself, 12.4:1 on its tint."
+        },
+        "configured/surface": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "amber/tint"
+          },
+          "value": "#fff2ea",
+          "description": "Pill ground — configured for this client. The caveat tint."
+        },
+        "configured/text": {
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "amber/700"
+          },
+          "value": "#b45309",
+          "description": "Pill label — configured for this client. The caveat itself, 4.6:1 on its tint."
+        },
+        "proposed/surface": {
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "use": "surface",
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "gray/50"
+          },
+          "value": "#f9fafb",
+          "description": "Pill ground — proposed, not yet a capability. Wash: deliberately the quietest."
+        },
+        "proposed/text": {
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "aliasOf": {
+            "collection": "Artefact / Primitive",
+            "name": "gray/600"
+          },
+          "value": "#4b5563",
+          "description": "Pill label — proposed. Slate, 7.2:1 on wash."
+        }
+      }
+    }
+  }
+}

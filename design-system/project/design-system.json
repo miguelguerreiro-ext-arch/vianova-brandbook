@@ -1,0 +1,100 @@
+{
+ "v": 3,
+ "layout": "files",
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-10T14:34:00Z"
+ },
+ "title": "Vianova Brandbook",
+ "namespace": "VianovaBrandbook",
+ "libraries": [],
+ "sections": {},
+ "groups": [
+  "Logos",
+  "Art"
+ ],
+ "assetGroups": {
+  "Logos": {
+   "name": "Logos",
+   "tile": "l",
+   "order": [
+    "vianova-logo.svg",
+    "vianova-logo-dark.svg",
+    "vianova-logo-white.svg",
+    "vianova-logo-black.svg",
+    "vianova-symbol.svg",
+    "vianova-symbol-white.svg",
+    "vianova-symbol-black.svg"
+   ],
+   "files": {
+    "vianova-logo.svg": {
+     "name": "vianova-logo.svg",
+     "blob": "c9e076191ae248e345638ab70c51dd31",
+     "size": 13668,
+     "type": "image/svg+xml"
+    },
+    "vianova-logo-dark.svg": {
+     "name": "vianova-logo-dark.svg",
+     "blob": "702591db387e0b74bd0476bf16afe0c1",
+     "size": 13429,
+     "type": "image/svg+xml"
+    },
+    "vianova-logo-white.svg": {
+     "name": "vianova-logo-white.svg",
+     "blob": "8d8a1e1fd3def5b7aad5b669dae2f9dc",
+     "size": 11587,
+     "type": "image/svg+xml"
+    },
+    "vianova-logo-black.svg": {
+     "name": "vianova-logo-black.svg",
+     "blob": "7c24c2f0959bd8f2782834600cb6fc5a",
+     "size": 11211,
+     "type": "image/svg+xml"
+    },
+    "vianova-symbol.svg": {
+     "name": "vianova-symbol.svg",
+     "blob": "2c8c639c43a0ad50c0c2fd8a743e742b",
+     "size": 6489,
+     "type": "image/svg+xml"
+    },
+    "vianova-symbol-white.svg": {
+     "name": "vianova-symbol-white.svg",
+     "blob": "163ffebf94476a8f8ef96e667f5980ae",
+     "size": 6337,
+     "type": "image/svg+xml"
+    },
+    "vianova-symbol-black.svg": {
+     "name": "vianova-symbol-black.svg",
+     "blob": "66c6480a946be782839ff9bced8e856d",
+     "size": 5961,
+     "type": "image/svg+xml"
+    }
+   }
+  },
+  "Art": {
+   "name": "Art",
+   "tile": "l",
+   "order": [
+    "cover-wash.png"
+   ],
+   "files": {
+    "cover-wash.png": {
+     "name": "cover-wash.png",
+     "blob": "3000519126d9e055d44f48e29addd227",
+     "size": 70902,
+     "type": "image/png"
+    }
+   }
+  }
+ },
+ "blobs": {},
+ "docs": {
+  "sections": []
+ },
+ "lastChange": {
+  "by": "Miguel Guerreiro",
+  "at": "2026-11-10T14:34:00Z",
+  "via": "Claude Code",
+  "note": "First version: 78 tokens from the Brandbook capture, 14 master components and 6 proposals from the VN-Minimal kit."
+ }
+}

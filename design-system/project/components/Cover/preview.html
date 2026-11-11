@@ -1,0 +1,57 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Vianova Brandbook</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+<style>
+  html, body { margin: 0; height: 100%; }
+  body { background: var(--surface-page, #ffffff); color: var(--text-heading, #111827); font-family: var(--font-print, "Poppins", system-ui, sans-serif); overflow: hidden; }
+  .cover { position: relative; width: 960px; height: 288px; overflow: hidden; }
+  /* the brand bar, whole, at the top edge: the one mark the system allows there (topbar 3pt = 4px) */
+  .bar { position: absolute; left: 0; top: 0; width: 100%; height: 4px;
+    background: linear-gradient(90deg, var(--gradient-1, #fc0061) 0%, var(--gradient-2, #ba00c7) 25%, var(--gradient-3, #6000f3) 50%, var(--gradient-4, #004bd9) 75%, var(--gradient-5, #00dc96) 100%); }
+  .art { position: absolute; left: 480px; top: 0; width: 480px; height: 288px; overflow: hidden; }
+  .art svg { display: block; }
+  .navy { fill: var(--accent-default, #112e57); }
+  .teal { fill: var(--secondary-default, #1b787a); }
+  .tint { fill: var(--accent-tint, #eef7ff); }
+  .amber { fill: var(--caveat-default, #b45309); }
+  .paper { fill: var(--text-on-accent, #ffffff); }
+  .hair { stroke: var(--border-default, #e5e7eb); stroke-width: 1; }
+  .words { position: absolute; left: 54px; bottom: 36px; max-width: 440px; }
+  .name { margin: 0; font-size: 72px; line-height: .95; font-weight: 700; letter-spacing: -0.025em; }
+  .tag { margin: 16px 0 0 3px; font-size: 13px; line-height: 18px; color: var(--text-secondary, #4b5563); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="bar"></div>
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      accent-default 150x212, secondary-default 150x212 bleeding off the right edge, accent-tint 150x240 bleeding off the foot, caveat-default 24x24 once (it only ever means a qualification) — about a third of 960x288
+  arrangement three A4 sheets (1 : 1.414, the page-width : page-height ratio) staggered on a 16px gutter, the way the template's pages lie on the canvas
+  pattern     hairlines, from "The bar is the only edge mark" and "every divider in this file is this weight": five border-default rules at twice the 15pt baseline (40px) crossing all three sheets, plus the section badge cut out of the navy sheet in paper
+  scales      sheet ratio from page-width and page-height; rule weight hairline (0.75pt = 1px); pitch 2 x baseline; badge 24 with the 4pt card radius; gutters 16
+-->
+<rect class="navy" x="24" y="44" width="150" height="212"/>
+<rect class="tint" x="190" y="76" width="150" height="240"/>
+<rect class="teal" x="356" y="28" width="150" height="212"/>
+<rect class="amber" x="356" y="244" width="24" height="24" rx="5.333"/>
+<rect class="paper" x="42" y="62" width="24" height="24" rx="5.333"/>
+<line class="hair" x1="0" y1="112" x2="480" y2="112"/>
+<line class="hair" x1="0" y1="152" x2="480" y2="152"/>
+<line class="hair" x1="0" y1="192" x2="480" y2="192"/>
+<line class="hair" x1="0" y1="232" x2="480" y2="232"/>
+<line class="hair" x1="0" y1="272" x2="480" y2="272"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Vianova<br>Brandbook</h1>
+<p class="tag">Papers, tenders and concepts on A4, set in VN-Minimal.</p>
+</div>
+</div>
+</body>
+</html>

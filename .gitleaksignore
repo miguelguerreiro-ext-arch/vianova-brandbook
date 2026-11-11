@@ -1,0 +1,8 @@
+# A Figma file key is not a credential. It is the public identifier in the file's own
+# URL (figma.com/design/<fileKey>/...) and grants nothing on its own — access is governed
+# by Figma permissions. gitleaks' generic-api-key rule matches it on the `fileKey:` name.
+#
+# Real Figma credentials are PATs, and those are blocked by .gitignore (.figma_token,
+# .env*) and never committed.
+capture/lock.json:generic-api-key:3
+capture/variables.json:generic-api-key:5

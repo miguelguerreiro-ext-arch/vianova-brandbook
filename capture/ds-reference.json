@@ -1,0 +1,84 @@
+{
+  "$comment": "Vendored snapshot of the Vianova DS semantic roles this system shares. NOT a live dependency: no fetch, no package, no submodule. It is a committed constant with provenance, read only by test/shared-values.test.ts. Updating it is a deliberate, reviewed act — if a value here changes, a Vianova DS role changed and the artefact Figma library must be updated to match in the same PR.",
+  "$why": "Cross-FILE Figma variable aliasing requires an Organization or Enterprise plan. The Vianova team is on Professional (verified 2026-10-01 via Figma whoami), so shared roles cannot alias the product DS library directly and are restated in the artefact file's own primitive tier. WITHIN-file aliasing does work on Professional, so the semantic tier aliases those primitives properly — that is pinned separately by test/alias-integrity.test.ts. This file is what makes the restatement checkable.",
+  "source": {
+    "repo": "vianova-ds",
+    "digestGenerated": "2026-09-29",
+    "dsRepoSha": "2eefc71",
+    "inputSha256Prefix": "ac0b58bb65cb9280"
+  },
+  "roles": {
+    "primary": {
+      "value": "#0f766e",
+      "cssVar": "--primary",
+      "primitive": "teal-700"
+    },
+    "foreground": {
+      "value": "#09090b",
+      "cssVar": "--foreground",
+      "primitive": "zinc-950"
+    },
+    "muted-foreground": {
+      "value": "#52525b",
+      "cssVar": "--muted-foreground",
+      "primitive": "zinc-600"
+    },
+    "border": {
+      "value": "#e4e4e7",
+      "cssVar": "--border",
+      "primitive": "zinc-200"
+    },
+    "background": {
+      "value": "#ffffff",
+      "cssVar": "--background",
+      "primitive": "white"
+    }
+  },
+  "sharedRoles": {
+    "Artefact / Colour|surface/page": "background",
+    "Artefact / Colour|text/on-accent": "background"
+  },
+  "$sharedRolesNote": "Declared HERE, in the repo — not parsed out of Figma variable descriptions. The contract belongs to the code, so a description edit in Figma cannot silently weaken it.",
+  "$divergence": {
+    "$comment": "On 2026-10-08 the artefact palette was realigned to vianova.io rather than the product DS: the primary moved from DS teal to the site navy, and the neutral ramp moved from zinc to gray. Five of the six shared-role bindings were severed by that change. They are recorded here rather than deleted, because a binding that vanishes without a trace is how a shared contract rots unnoticed. Restoring any of them means changing the Figma library, not this file.",
+    "severedOn": "2026-10-08",
+    "severed": [
+      {
+        "was": "Artefact / Paper/rule -> DS primary",
+        "dsValue": "#0f766e",
+        "nowRole": "Artefact / Colour|accent/default",
+        "nowValue": "#112e57",
+        "reason": "artefact primary is now navy/900, the declared primary of vianova.io"
+      },
+      {
+        "was": "Artefact / Data/data-current -> DS primary",
+        "dsValue": "#0f766e",
+        "nowRole": "Artefact / Colour|secondary/default",
+        "nowValue": "#1b787a",
+        "reason": "the teal survives as SECONDARY but at a new artefact-specific step, not the DS primary"
+      },
+      {
+        "was": "Artefact / Paper/ink -> DS foreground",
+        "dsValue": "#09090b",
+        "nowRole": "Artefact / Colour|text/heading",
+        "nowValue": "#111827",
+        "reason": "neutral ramp moved zinc -> gray"
+      },
+      {
+        "was": "Artefact / Paper/muted -> DS muted-foreground",
+        "dsValue": "#52525b",
+        "nowRole": "Artefact / Colour|text/secondary",
+        "nowValue": "#4b5563",
+        "reason": "neutral ramp moved zinc -> gray"
+      },
+      {
+        "was": "Artefact / Paper/line -> DS border",
+        "dsValue": "#e4e4e7",
+        "nowRole": "Artefact / Colour|border/default",
+        "nowValue": "#e5e7eb",
+        "reason": "neutral ramp moved zinc -> gray"
+      }
+    ],
+    "openQuestion": "Is the artefact system intended to track vianova.io or the product DS? Until that is ruled on, this guard covers only white and the two systems can drift freely. Raised 2026-10-13."
+  }
+}

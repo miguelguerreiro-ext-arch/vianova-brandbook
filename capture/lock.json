@@ -1,0 +1,14 @@
+{
+  "$comment": "Staleness lock. `pnpm capture:check` compares these against the live Figma file and fails when it has moved, so a manual-capture chain cannot silently rot.",
+  "fileKey": "rBgYzyWoDFPc76K0mpuDaP",
+  "fileName": "UNVERIFIED",
+  "version": "UNVERIFIED",
+  "lastModified": "UNVERIFIED",
+  "capturedAt": "2026-10-13",
+  "captureSha256": "e0d2df1e24afa3dcac5ac6c36247bcdc47afefad3186c86d6c33f217bc7a055a",
+  "counts": {
+    "collections": 7,
+    "variables": 78
+  },
+  "$versionNote": "The Figma Plugin API exposes neither file version nor file name; capture:check reads version from the REST API, which needs FIGMA_TOKEN. Set that secret and run `pnpm capture:check` once to populate version/lastModified."
+}

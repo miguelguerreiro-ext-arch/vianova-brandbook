@@ -1,0 +1,21 @@
+{
+  "name": "vianova-brandbook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Vianova Brandbook — the A4 paper and one-pager system. Sourced from Figma, authoritative in code. Renamed from vianova-ds-artefacts on 2026-10-14.",
+  "engines": { "node": ">=22" },
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "capture:check": "tsx scripts/capture-check.ts",
+    "import": "tsx scripts/import-figma.ts",
+    "build": "tsx scripts/import-figma.ts && tsx scripts/build-tokens.ts && tsx scripts/digest.ts",
+    "digest": "tsx scripts/digest.ts",
+    "test": "node --test --experimental-strip-types test/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
